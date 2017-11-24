@@ -23,6 +23,10 @@ Output:
     genesis hash found!
     nonce: 2083236893
     genesis hash: 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
+Create the testnet3 genesis hash found in Bitcoin
+
+    python genesis.py -z "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" -n 414098458 -t 1296688602
+    
 Create the regtest genesis hash found in Bitcoin
 
     python genesis.py -z "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" -n 2 -t 1296688602 -b 0x207fffff
